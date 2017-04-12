@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fr{
+    float: right;
+}
+
+.fl{
+    float: left;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+img{
+    vertical-align: middle;
+}
+
+.fcolor{
+    color: #EF1F1F;
+    margin-top: 5px;
+}
+
+.gcolor{
+    color: #91E484;
+    margin-top: 12px;
+}
+
+.kcolor{
+    color: #D1A036;
+    margin-top: 12px;
+}
+
+.rcolor{
+    color: #F34D59;
+    margin-top: 12px;
+}
+/*首页头部*/
+.homepage{
+    width: 100%;
+    /*height: 64px;*/
+}
+  .homepage-header{
+      height: 44px;
+      background-color: #F7AE1A;
+      padding: 0 16px;
+      /*overflow: hidden;*/
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      width: 92%;
+  }
+
+.homepage-header .inner{
+    height: 24px;
+
+    margin-top: 8px;
+}
+
+.header-left .iconfont,.header-right .iconfont{
+    font-size: 24px;
+    color: #fff;
+}
+
+.homepage-header .input{
+    margin-left: 83px;
+    margin-top: 5px;
+    position: relative;
+    width: 170px;
+}
+
+.homepage-header .input span{
+    position: absolute;
+    bottom: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.homepage-header .input span:nth-child(1){
+    left:5px;
+}
+.homepage-header .input span:nth-child(3){
+    right: 5px;
+}
+.homepage-header .input input{
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    width: 170px;
+}
+
+.homepage-header .input::before,
+.homepage-header .input::after{
+    content: "";
+    height: 10px;
+    background-color: #fff;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.homepage-header .input::after{
+    left: 169px;
+    bottom: 0;
+}
+
+/*轮播图部分*/
+.carousel{
+    height:160px;
+    margin-top: 44px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img{
+    height: 100%;
+    width: 100%;
+}
+
+/*活动部分*/
+
+.info{
+    height: 89px;
+    border-bottom: 1px solid #F0F0F0;
+}
+.info ul{
+    /*border-bottom: 1px solid #ccc;*/
+    overflow: hidden;
+}
+.info ul li{
+    float: left;
+    width: 25%;
+}
+
+.info ul li a{
+    display: inline-block;
+}
+
+.info ul li img{
+    height: 66px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+/*今日头条*/
+.headline{
+    height: 60px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.headline-left{
+    width: 47px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.headline-left img{
+    width: 47px;
+}
+.headline-right{
+    height: 40px;
+    margin-left: 18px;
+    border-left: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.headline-right img{
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+/*商品部分*/
+.product{
+    height: 130px;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+}
+
+.product ul{
+    overflow: hidden;
+    background-color: #fff;
+    height: 130px;
+}
+.product ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    /*line-height: 130px;*/
+    border-right: 1px solid #F0F0F0;
+}
+
+.product ul li:nth-child(1){
+    background: url("../images/maiyizengyi@2x.png") no-repeat 61px 29px;
+    background-size: 28px;
+}
+
+.product ul li p{
+    height: 12px;
+    font-size: 9px;
+}
+.product ul li:nth-child(4){
+    width: 24%;
+    border: none;
+}
+
+.product ul li img{
+    height: 75px;
+}
+
+/*便利店*/
+.convenience{
+    height: 202px;
+    width: 315px;
+    margin: 0 auto;
+}
+
+.con-top{
+    width: 185px;
+    height: 57px;
+    line-height: 57px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.con-top span{
+    color: #ff9600;
+}
+
+.con-md img{
+    height: 57px;
+}
+
+.convenience ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.convenience ul li img{
+    width: 31px;
+
+}
+
+.convenience ul li span{
+    width: 80px;
+    font-size: 12px;
+    position: absolute;
+    bottom: -25px;
+    margin-left: -54px;
+}
+
+/*优选水果*/
+.fruit{
+    height: 189px;
+    border-bottom: 1px solid #D6D6D6;
+    background-color: #F0F0F0;
+    overflow: hidden;
+}
+
+.fruit-more{
+    margin-top: 8px;
+    background-color: #fff;
+    padding-left: 10px;
+    height: 30px;
+}
+
+.fruit-more p{
+    border-left: 10px solid #FF8A2F;
+    height: 30px;
+    line-height: 30px;
+}
+
+.fruit-more p .fl{
+    margin-left: 5px;
+    color: #FF9346;
+}
+
+.fruit-more p a{
+    color: #FF9346;
+    position: relative;
+    margin-right: 20px;
+}
+
+.fruit-more p a span{
+    position: absolute;
+    color: #fff;
+    background-color: #FF9346;
+    line-height: 15px;
+    height: 15px;
+    width: 10px;
+    right: -15px;
+    top: 8px;
+    text-align: center;
+}
+.fruit-list{
+    width: 100%;
+    background-color: #fff;
+}
+.fruit-list ul{
+    overflow: hidden;
+    width: 336px;
+    margin: 0 auto;
+}
+.fruit-list ul li{
+    float: left;
+    width: 33.3%;
+    background-color: #fff;
+    font-size: 9px;
+}
+
+.fruit-list ul li img{
+    width: 106px;
+}
+
+.fruit-list ul li p{
+    padding-left: 10px;
+}
+
+.fruit-list ul li span{
+    color: #F45F69;
+    height: 31px;
+    line-height: 31px;
+}
+
+/*牛奶面包*/
+.milk{
+    margin-bottom: 49px;
+}
+.milk .fruit-more p{
+    border-left: 10px solid #97CAEC;
+}
+
+.milk .fruit-more p .fl{
+    color: #97CAEC;
+}
+
+.milk .fruit-more p a{
+    color: #97CAEC;
+}
+
+.milk .fruit-more p a span{
+    background-color: #97CAEC;
+
+}
+
+/*底部部分*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 49px;
+    background-color: #F6F6F6;
+}
+ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    text-align: center;
+
+}
+ul li a::before{
+    font-size: 25px;
+    color: #999899;
+}
+
+ul li a p{
+    font-size: 12px;
+    color: #999899;
+}
+
+

@@ -1,0 +1,33 @@
+body{
+    background-color: #EFEFEF;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+.fr{
+    float: right;
+}
+
+.fl{
+    float: left;
+}
+
+.ov{
+    overflow: hidden;
+}
+
+.glod{
+    color: #ff9600;
+}
+
+.show{
+    /*background-color: #ff9600;*/
+    color: #ff9600;
+}
+
+ul li{
+    list-style: none;
+}
+
